@@ -6,7 +6,7 @@ namespace BaltaStore.Api.Controllers{
         [HttpGet]
         [Route("")]
         public object Get(){
-            return new {version = "version 0.0.1"};
+            return new {version = "version 0.0.2"};
         }
 
       
